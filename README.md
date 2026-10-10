@@ -85,7 +85,6 @@ Python (pandas, matplotlib), SQL (SQLite and MySQL: joins, CTEs, window function
 4. To use MySQL, load the CSV files into a database named `olist`, then run the queries in `queries_mysql.sql` (MySQL 8.0+).
 
 ## Limitations
-## Limitations
 - The dataset covers orders from late 2016 to October 2018. Monthly trends use only full months (January 2017 to August 2018), because 2016 has very few orders and the last months of 2018 are incomplete.
 - Only delivered orders are analysed, so canceled and unfinished orders are excluded.
 - Revenue uses product price and excludes shipping (`freight_value`). It does not account for discounts or refunds.
